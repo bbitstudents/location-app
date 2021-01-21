@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_marginBottom="10dp"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/studentProfile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/singers"
+            android:elevation="6dp"
+            app:civ_border_width="6dp"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_overlay="true"
+            app:civ_circle_background_color="@color/colorPrimary"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textStyle="normal"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@id/studentProfile"
+            />
+        <TextView
+            android:id="@+id/studentReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration number:"
+            android:layout_toRightOf="@id/studentProfile"
+            android:textStyle="normal"
+            android:layout_below="@id/studentName"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:id="@+id/hostel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hostel:"
+            android:layout_toRightOf="@id/studentProfile"
+            android:textStyle="bold"
+            android:layout_below="@id/studentReg"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:id="@+id/room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room no:"
+            android:layout_toRightOf="@id/studentProfile"
+            android:textStyle="bold"
+            android:layout_below="@id/hostel"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:id="@+id/Rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rank:"
+            android:layout_toRightOf="@id/studentProfile"
+            android:textStyle="bold"
+            android:layout_below="@id/room"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/locate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Rank"
+            android:layout_centerInParent="true"
+            android:text="locate student"/>
+
+
+    </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

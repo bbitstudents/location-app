@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "557319119131",
+    "project_id": "student-locator-7beda",
+    "storage_bucket": "student-locator-7beda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557319119131:android:21456d25fb1ee59581b3be",
+        "android_client_info": {
+          "package_name": "com.example.studentlocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557319119131-mm0hnqm7gmamr1rcar7jsh40d0ajqgsm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentlocator",
+            "certificate_hash": "4378cbfbcb2ed90dd480f042f3f6602b9f0ca5fa"
+          }
+        },
+        {
+          "client_id": "557319119131-2n9lm2sienqu51k0e48f680634kv6d0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV0y_PfBF3xga6gStpL4xwdXwpS72Wu3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557319119131-2n9lm2sienqu51k0e48f680634kv6d0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
